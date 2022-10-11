@@ -1,0 +1,128 @@
+body{
+    height: 65vh;
+    width: 5vw;
+    display: flex;
+    background-image: url('gif.png');
+}
+header{
+    justify-content: space-evenly;
+    width: 85vw;
+    height: 30vh;
+    display: flex;
+    
+}
+nav.menu{
+    display: flex;
+    color: palevioletred;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul{
+    justify-content: center;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 5%;
+    color:red;
+    margin-left: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+nav ul li :hover{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+ main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
+ main p{
+    color: red;
+    margin-left: -780%;
+    margin-top: 370%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ }
+ div.menu ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35%;
+    margin: 20px;
+}
+
+ul li.btn {
+     border: 2px solid rgb(132,13,201);
+     padding: 10px;
+     border-radius: 10px;
+     font-family: fantasy;
+     transition: .4s;
+     color: red;
+     
+}
+
+ul li.btn:hover {
+    background-color:red (132,13,201);
+    color: rgb(6, 182, 6);
+    transition: .4s;
+}
+
+div.titulo h1{
+    color: red;
+    margin-left: 52%;
+
+}
+div.titulo h2{
+    color: red;
+    height:10vh;
+    width: 60vw;
+    margin-left: 25%;
+}
+img{
+        width: 15vw;
+        height: 45vh;
+        margin-top: 100%;
+        margin-left: -128%;
+        justify-content: center;
+        align-items: center;
+}
+footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+}
+div.gg{
+margin-left: 105%;
+margin-top: -13%;
+}
+div.ff{
+    
+    margin-top: 18%;
+    margin-left: -45%;
+}
+div.ff >img{
+    height: 30vh;
+    width: 40vw;
+    margin-top: 40%;
+    margin-left: -105%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 4.5s;
+}
+
+
